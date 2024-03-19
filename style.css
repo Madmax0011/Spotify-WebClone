@@ -129,3 +129,68 @@ body {
 .badge:hover {
     background-color: #1ed760;
 }
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.main-page-nav-icon img {
+    margin-left: 0.5rem;
+    background-color: #000000;
+}
+
+.main-page-other-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.other-icon {
+    margin-right: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.card {
+    background-color: #161616;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0.75rem;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 1s ease;
+}
+
+.card:hover {
+    background-color: #222222;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 0.75rem;
+    color: #a7a7a7;
+}
