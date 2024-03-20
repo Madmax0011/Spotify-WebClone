@@ -194,3 +194,11 @@ body {
     font-size: 0.75rem;
     color: #a7a7a7;
 }
+
+.footer {
+    height: 200px;
+}
+
+hr {
+    opacity: 0.3;
+}
