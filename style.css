@@ -37,8 +37,12 @@ body {
     height: 4.5rem;
 }
 
-
-
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 .nav {
     background-color: #131313;
@@ -139,6 +143,11 @@ body {
 
 .badge:hover {
     background-color: #1ed760;
+}
+
+.install-app-badge {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .sticky-nav {
@@ -413,4 +422,6 @@ hr {
     to {
         opacity: 1;
     }
+
+
 }
